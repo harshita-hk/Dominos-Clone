@@ -1,0 +1,256 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: proxima-nova, sans-serif;
+    overflow-x: hidden;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+    width: 100%;
+    padding: 1em 0em 1em 1.5em;
+    /* box-shadow: 0 4px 15px 0 #0d4888; */
+}
+nav a{
+    align-items: center;
+    text-transform: uppercase;
+    color: #5f88a3;
+    margin-left: 25px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: .2s;
+}
+nav a:hover{
+    color:#0078ac;
+} 
+a{text-decoration: none;}
+.logo{
+    margin-left: 50px;
+}
+.download-button{
+    border: none;
+    color: white;
+    width: 148px;
+    height: 45px;
+    border-radius: 3px;
+    margin-right: 50px;
+    background-color: #f3223b;
+    font-size: 15px;
+    display: inline-block;
+    text-align: center;
+}
+header{  
+    width: 100%;
+    position: relative;
+    height: 460px;
+    background-color: #1a5ca3;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 20px  50px 200px  #0d4888;
+}
+.header-text{
+    padding-left: 10px;
+    position: relative;
+    margin-left: 90px;
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.header-text h1{
+    color: white;
+    margin-top: 30%;
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    font-family: "proximaBold"
+}
+.header-text p{
+    color: #47a0ff;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.header-text button{
+    margin: 15px 0px;
+    border: none;
+    color: white;
+    width: 100%;
+    height: 60px;
+    border-radius:2px;
+    padding: 5px;
+    text-transform: uppercase;
+    background-color:  #1fb31a;;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0 2px 2px 0 #024389, 0 0 2px 0 rgba(0, 0, 0, 0.12);
+    text-align: center;
+}
+.header-text img{
+    width: 100%;
+}
+.header-image img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.offer-and-explore{
+    margin: 50px 100px 100px 100px;
+    width: 100%;
+    height: auto;
+}
+.offer-and-explore h1{
+    color: #708aa5;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'proximaBold';
+    margin-bottom: 20px;
+}
+.offer-images{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.offer-images img{
+    padding: 10px;
+    border-radius: 13px;
+    margin-bottom: 0px;
+}
+.explore-slide{
+    border: 1px dotted #979797;
+    border-radius: 3px;
+    background: #fff;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.explore-slide a{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    text-align: center;
+}
+.text{
+    letter-spacing: 0.21;
+    min-width: 18em;
+    height: 250px;
+    padding: 10px;
+}
+.text h3{
+    color: #2b4547;
+    font-family: "proximaExtraBold";
+    font-size: 22px;
+    text-transform: uppercase;
+}
+.text p{
+    color: #2b4547;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+}
+.book{
+    display: flex;
+    justify-content: center;
+    border-top: 1px dotted #979797;
+    font-weight: 800;
+}
+.book h4{
+    font-family: "proximaExtraBold";
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #de042e;  
+}
+#app-info{
+    background-color: #f2f5fc;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    padding-top: 2em;
+    width: 100%;
+}
+.app-download{
+    margin-top: 40px;
+    padding-left: 200px;
+}
+.app-download h1{
+    font-family: "ProximaBold";
+    color: #59688c;
+    text-transform: capitalize;
+    font-size: 2.5em;
+}
+.app-download p{
+    font-size: 27px;
+    line-height: 43px;
+    letter-spacing: 0.24px;
+    color: #8899c0;
+    max-width: 457px;
+}
+.dowload-link{
+    display: flex;
+    justify-content: flex-start;
+}
+.dowload-link a{
+    padding-left: 10px;
+}
+#page-text{
+    width: 100%;
+    flex-direction: row;
+    padding: 2rem;
+    justify-content: start;
+    font-size: 1rem;
+    color: #59688c;
+}
+#page-text h3{
+    font-family: "ProximaBold";
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+footer{
+    width: 100%;
+}
+.footer-top{
+    background-color:  #222e3a;
+    padding-top: 1em;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px dotted #526274;
+}
+.footer-links h6{
+    color:#546273;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 2em !important;
+}
+ul,li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    color: white;
+    margin-bottom: 1.2em;
+    font-size: 18px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.social-link{
+    display: flex;
+    align-items: center;
+    width: 12vw;
+    margin: 0;
+    cursor: pointer;
+    justify-content: space-between;
+}
+.footer-bottom{
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    padding: 1.4em;
+    background: #1a2735;
+    color: #5c6f83;
+}
